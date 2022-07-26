@@ -1,0 +1,135 @@
+.card-container {
+  background-color: #272727;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #a271;
+}
+.company-logo {
+  height: 40px;
+  width: 40px;
+}
+@media (min-width: 768px) {
+  .company-logo {
+    height: 50px;
+    width: 50px;
+  }
+}
+.image-logo-container {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.company-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 16px;
+  }
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 0.8;
+  margin: 0;
+  margin-left: 6px;
+}
+.icon-container {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+}
+.star-icon {
+  color: gold;
+  font-size: 13px;
+  margin: 0;
+  line-height: 0.8;
+}
+@media (min-width: 768px) {
+  .icon {
+    font-size: 15px;
+  }
+}
+.location-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.location-and-salary-container {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.job-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.location-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 2px;
+}
+.job-text {
+  color: #ffffff;
+  margin-left: 2px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.package-text {
+  color: #ffffff;
+  margin-left: 2px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 40px;
+}
+.location-salary-employment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+.description-heading {
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1;
+  padding-left: 5px;
+}
+.description {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  .description-heading {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 15px;
+  }
+}
+.link {
+  text-decoration: none;
+  list-style-type: none;
+}

@@ -1,0 +1,12 @@
+.filter-heading {
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.label {
+  color: #ffffff;
+  font-size: 15px;
+}
+.input-container-filters {
+  margin-left: 10px;
+}

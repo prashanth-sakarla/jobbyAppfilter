@@ -1,0 +1,140 @@
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.mobile-view-job {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .mobile-view-job {
+    display: none;
+  }
+}
+.search-input-container {
+  height: 35px;
+  width: 90%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  margin-top: 20px;
+  border: 1px solid #b6c5ff;
+  border-radius: 6px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 90%;
+  height: 28px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 2px;
+}
+.icon {
+  color: antiquewhite;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+.separator {
+  width: 90%;
+  color: aliceblue;
+}
+.cards-container {
+  width: 90%;
+}
+
+.desktop-view {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-view {
+    display: flex;
+    min-height: 100vh;
+  }
+  .filters-container {
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .search-input-container {
+    height: 35px;
+    width: 350px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    margin-top: 20px;
+    border: 1px solid #b6c5ff;
+    border-radius: 6px;
+  }
+  .search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 90%;
+    height: 28px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 2px;
+  }
+  .responsive-container {
+    display: flex;
+    width: 100%;
+  }
+  .jobs-cards-container {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .cards-container {
+    width: 90%;
+  }
+}
+.no-jobs {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.no-jobs-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  .no-jobs {
+    font-size: 25px;
+  }
+  .no-jobs-text {
+    font-size: 20px;
+  }
+}
+.failure-image-container {
+  display: flex;
+  flex-direction: column;
+}
+.failure-heading {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.failure-text {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.retry-button {
+  background-color: blue;
+  padding: 10px;
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+}

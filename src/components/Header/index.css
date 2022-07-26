@@ -1,0 +1,78 @@
+.mobile-nav-bar {
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  background-color: #202020;
+}
+.logo {
+  margin-top: 5px;
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+}
+.icon {
+  color: #ffffff;
+  font-size: 35px;
+  margin-right: 20px;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .mobile-nav-bar {
+    display: none;
+  }
+}
+.desktop-nav-bar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .desktop-nav-bar {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background-color: #202020;
+    justify-content: space-between;
+  }
+}
+.desktop-logo {
+  height: 60px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.text-content {
+  color: #ffff;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+}
+.log-out-button {
+  height: 40px;
+  width: 110px;
+  background-color: #4f46e5;
+  padding: 20px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.log-out-icon {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
